@@ -1,0 +1,19 @@
+
+$ git init
+
+$ git config --global user.name "niumangtu"
+
+$ git config --global user.email "1739625828@qq.com"
+
+$ git pull git@github.com:niumangtu/poison.git
+
+$ git add .
+
+$git commit -m "หตร๗"
+
+$gin push git@github.com:niumangtu/poison.git master
+
+
+
+
+ 
