@@ -1,0 +1,377 @@
+*{margin:0;
+  padding:0;
+  list-style: none;
+}
+a{text-decoration: none;}
+/* 第一个背景图片 */
+#on{background:#000;}
+/* 第二个背景图片 */
+#two{background:#000;}
+/* 第三个背景图片 */
+#four{background:#e1e4e7}
+/* 第四个背景图片 */
+#five{background:#35393f;}
+/* 第五个 */
+#six{background:#e1e4e7;}
+/* 第六个 */
+#seven{background: #01c2c3;}
+/* 第七个 */
+#id7{background: #e1e4e7;}
+/* 第八个 */
+#eight{background:#000;}
+/* 外面的大div */
+#center{width:100%;}
+@media (min-width:1000px){
+  /* 第一个 */
+  .on{
+    position:relative;
+    width:1024px;
+    height:90px;
+    margin:0 auto;
+  }
+  /* 第一个图片的位置 */
+  .on>img{
+    width:50px;
+    height:50px;
+    display:block;
+    line-height:90px;
+    padding-top:20px;
+  }
+  /* tite 的样式和位置 */
+  .on>ul{
+    position:absolute;
+    display:flex;
+    width: 300px;
+    right: 0;
+    justify-content:space-between;
+    top:32px;
+  }
+  /* a标签的样式和自豪大小 以及背景图片 */
+  .on>ul>li>a{
+   color:#fff;
+   font-size:20px;
+  }
+  /* 第二个div的答题样式 */
+  .two{
+    position:relative;
+    width:1024px;
+    height:650px;
+    margin:0 auto;
+  }
+  /* 手机图片的样式 */
+  .two>img{
+    width:450px;
+    height:410px;
+    position:absolute;
+    bottom:0px;right: 0px; 
+  }
+  /* div的 编辑和字体的颜色 */
+  .two>#d1{
+    position:absolute;
+    width:512px;
+    height:368px;
+    top:190px;
+    color:#fff;
+  }
+  /* #d1下的图片 */
+  .two>#d1>img{
+    position:absolute;
+    width:150px;
+    height:150px;
+    bottom: 0px;
+    left:250px;
+  }
+  /* #d1下的p1样式 */
+  .two>#d1>span{
+    font-size:80px;
+    height:0px;
+  }
+  /* 运动x潮流x装备*/
+  .two>#d1>h1{
+    font-size:40px;
+  }
+/* ul的样式 */
+.two>#d1>ul{
+  position: absolute;
+  bottom: 0px;
+}
+/* li中的样式和宽高 */
+  .two>#d1>ul>li{
+    width:214px;
+    height:61px;
+    border:1px solid #fff;
+    text-align: center;
+    line-height: 61px;
+  }
+  /* a标签的样式 字号 颜色 */
+  .two>#d1>ul>li>a{
+    color:#fff;
+    font-size:30px;
+  }
+  /* 与上边的margin*/
+  .two>#d1>ul>.l1{
+    margin-top:24px;
+  }
+  /* 第三的大体样式 */
+  .four{
+    position:relative;
+    width:1024px;
+    height:767px;
+    margin:0 auto;
+  }
+  /* 第三个图片的大体位置 */
+  .four>img{
+    width:410px;
+    height:615px;
+    position:absolute;
+    right:0px;
+    bottom: 0px;;
+  }
+  /* 里面的样式 */
+  .four>#d1{
+    width:450px;
+    height:450px;
+  }
+  /* title的字号 大小样式和宽高 */
+  .four>#d1>h1{
+    font-size: 60px;
+    padding-top: 160px;
+    font-weight: 100;
+    letter-spacing: 30px;/*字母中的间距*/
+    line-height: 80px;
+    text-align: left;
+    margin-bottom:20px;
+  }
+  /* 和上面的样式的边距 */
+  .four>#d1>h2{
+    font-size: 30px;
+    line-height: 55px;
+    padding-top:14px;
+    color: #282a33;
+  }
+  /* 第四个大体的样式 */
+  .five{
+    position:relative;
+    width:1024px;
+    height:767px;
+    margin:0 auto;
+  }
+  /* 右边的div的位置 文本框和颜色 */
+  .five>#d1{
+     width:450px;
+     height:505px;
+     position:absolute;
+     right:0px;
+     color:#fff;
+  }
+  /* 字体的间距颜色 和文本框 行距 */
+  .five>#d1>h1{
+    font-size: 60px;
+    padding-top: 160px;
+    font-weight: 100;
+    letter-spacing: 30px;
+    line-height: 80px;
+    text-align: left;
+    margin-bottom:20px;
+  }
+  /* 下面的样式 行高和字体样式 */
+  .five>#d1>h2{
+    font-size: 30px;
+    line-height: 55px;
+    padding-top:14px;
+  }
+  /* 图片位置 */
+  .five>img{
+    width:410px;
+    height:615px;
+    position:absolute;
+    bottom:0px;
+  }
+  /* 第五个 */
+  .six{
+    position:relative;
+    width:1024px;
+    height:767px;
+    margin:0 auto;
+  }
+  /* 大体位置 */
+  .six>#d1{
+    width:450px;
+    height:505px;
+  }
+  /* 字号大小 颜色 和距离 */
+  .six>#d1>h1{
+    font-size: 60px;
+    padding-top: 160px;
+    font-weight: 100;
+    letter-spacing: 30px;
+    line-height: 80px;
+    text-align: left;
+    margin-bottom:20px;
+  }
+  /* 上边距和字号大小 字体之间的间距 */
+  .six>#d1>h2{
+    font-size: 30px;
+    line-height: 55px;
+    padding-top:14px;
+  }
+  /*图片的位置 */
+  .six>img{
+    width:410px;
+    height:615px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
+  /* 第六个 */
+  .seven{
+    position:relative;
+    width:1024px;
+    height:767px;
+    margin:0 auto;
+  }
+  /* div6下的样式 */
+  .seven>#d1{
+    width:450px;
+    height:450px;
+    color:#fff;
+    position: absolute;
+    right: 0px;
+  }
+  /* 字体样式 */
+  .seven>#d1>h1{
+    font-size: 60px;
+    padding-top: 160px;
+    font-weight: 100;
+    letter-spacing: 30px;
+    line-height: 80px;
+    text-align: left;
+    margin-bottom:20px;
+  }
+  .seven>#d1>h2{
+    font-size: 30px;
+    line-height: 55px;
+    padding-top:14px;
+  }
+  /* 图片位置 */
+  .seven>img{
+    position: absolute;
+    width:410px;
+    height:615px;
+    bottom: 0px;
+  }
+  /* 第七个 */
+  .id7{
+    position:relative;
+    width:1024px;
+    height:740px;
+    margin:0 auto;
+  }
+  .id7>#d1{
+    width:450px;
+    height:450px;
+    color:#000;
+  }
+  .id7>#d1>h1{
+    font-size: 60px;
+    padding-top: 160px;
+    font-weight: 100;
+    letter-spacing: 30px;
+    line-height: 80px;
+    text-align: left;
+    margin-bottom:20px;
+  }
+  .id7>#d1>h2{
+    font-size: 30px;
+    line-height: 55px;
+    padding-top:14px;
+  }
+  .id7>img{
+    width:410px;
+    height:615px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    right: 0px;
+  }
+  /* 第八个 */
+  .eight{
+    position: relative;
+    text-align: center;
+    color:#fff;
+    margin:0 auto;
+    padding:50px 0px 20px 0px;
+  }
+  .eight>#p1{
+    font-size: 60px;
+    font-weight: 100;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: 30px;
+    line-height: 163px;
+  }
+  .eight>#p2{
+  margin-top:40px;
+  margin-bottom:15px;
+  font-weight: lighter;
+  }
+  .eight>#p3{
+    margin-top: 20px;
+  }
+  .eight>#p4>a>img{
+    width:40px;
+    height:20px;
+  }
+}
+/* 小屏的样式 */
+@media (max-width:999px){
+  /* 总体居中 */
+  #center{
+    text-align: center;
+  }
+  /* on 的图片样式 */
+  .on>img{
+    width:60px;
+    height:60px;
+    padding-top:60px;
+  }
+  /* 隐藏 */
+  .on>ul{display: none;}
+  /* two 的样式 */
+  .two{
+    width:87.5%;
+    margin: 0 auto;
+    color:#fff;
+    position: relative;
+  }
+  /* two span 的字样 */
+  .two>#d1>span{
+    margin-top:30px;
+    font-size: 37px;
+    line-height: 15px;
+    padding: 0 4px;
+    vertical-align: middle;
+    display: inline-block;
+   
+  }
+  /* 大字号的样式 */
+  .two>#d1>h1{
+    font-size:20px;
+    margin-top:15px;
+  }
+
+  /* 图片 */
+  .two>#d1>img{
+    position: absolute;
+    width:73px;
+    height:73px;
+   transform: translate(-85px,-38px);
+  }
+  .two>img{
+    width: 62.5%;
+  }
+  
+  .two>#d1{
+    margin-bottom:60px;
+  }
+ 
+}
