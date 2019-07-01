@@ -346,6 +346,7 @@ a{text-decoration: none;}
   /* two span 的字样 */
  .two>#d1{
    width:50%;
+   border:1px solid #f00; 
  }
  
 }
