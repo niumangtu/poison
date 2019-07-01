@@ -344,34 +344,6 @@ a{text-decoration: none;}
     position: relative;
   }
   /* two span 的字样 */
-  .two>#d1>span{
-    margin-top:30px;
-    font-size: 37px;
-    line-height: 15px;
-    padding: 0 4px;
-    vertical-align: middle;
-    display: inline-block;
-   
-  }
-  /* 大字号的样式 */
-  .two>#d1>h1{
-    font-size:20px;
-    margin-top:15px;
-  }
-
-  /* 图片 */
-  .two>#d1>img{
-    position: absolute;
-    width:73px;
-    height:73px;
-   transform: translate(-85px,-38px);
-  }
-  .two>img{
-    width: 62.5%;
-  }
-  
-  .two>#d1{
-    margin-bottom:60px;
-  }
+ 
  
 }
