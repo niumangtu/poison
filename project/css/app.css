@@ -344,6 +344,8 @@ a{text-decoration: none;}
     position: relative;
   }
   /* two span 的字样 */
- 
+ .two>#d1{
+   width:50%;
+ }
  
 }
