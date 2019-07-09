@@ -1,0 +1,113 @@
+*{margin:0;
+  padding:0;
+  list-style: none;
+}
+body{
+  background: #dde0e3;
+}
+a{text-decoration: none;}
+/* 第一个背景图片 */
+
+@media (min-width:1070px){
+  #on{background:#000;}
+.on{
+  position:relative;
+  width:1024px;
+  height:90px;
+  margin:0 auto;
+}
+/* 第一个图片的位置 */
+.on>img{
+  width:50px;
+  height:50px;
+  display:block;
+  line-height:90px;
+  padding-top:20px;
+}
+/* tite 的样式和位置 */
+.on>ul{
+  position:absolute;
+  display:flex;
+  width: 300px;
+  right: 0;
+  justify-content:space-between;
+  bottom:32px;
+}
+/* a标签的样式和自豪大小 以及背景图片 */
+.on>ul>li>a{
+ color:#fff;
+ font-size:20px;
+}
+#app{
+  width:1075px;
+  height:425px;
+  align-items: center;
+  margin: 10px auto;
+}
+#app>#d1,#app>#d2{
+  float: left;
+  
+}
+#d1>img,#d2{
+   width:535px;
+   height:420px;
+}
+#d2{
+  width:455px;
+  padding:0px 40px;
+}
+p{
+  font-size:30px;
+  margin-top:37px;
+}
+#d2>img{
+  margin-top:27px;
+}
+ul{
+  margin-top:26px;
+}
+ul>li{
+  line-height:30px;
+}
+.dd{
+  font-weight: 600;
+}
+}
+@media (max-width:1069px){
+   #on{
+     display:none;
+   }
+   #app{
+     padding-top:10px;
+     width:641px;
+     position: relative;
+     left: 50%;
+     transform: translate(-320px,0px);
+   }
+   #d1>img{
+     width:640px;
+     height:384px;
+     position: absolute;
+   }
+   #d2{
+     width:574px;
+     position: absolute;
+     top:385px;
+   }
+   p{
+    font-size:30px;
+    margin-top:37px;
+  }
+  #d2>img{
+    margin-top:27px;
+  }
+  ul{
+    margin-top:26px;
+  }
+  ul>li{
+    line-height:30px;
+  }
+  .dd{
+    font-weight: 600;
+  }
+}
