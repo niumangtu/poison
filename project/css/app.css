@@ -349,22 +349,83 @@ a{text-decoration: none;}
   }
   /* two span 的字样 */
  .two>#d1{
-   width:50%;
-   border:1px solid #f00; 
-   margin: 0 auto;
+   width:50%; 
+   margin:0 auto;
    position: relative;
+   padding:15px 0px 0px 0px;
+ }
+ .two>#d1>span{
+   font-size: 37px;
+   line-height:15px;
+   padding:0 4px;
+   vertical-align: middle;
+   display: inline-block;
+ }
+ .two>#d1>h1{
+  font-size: 16px;
+  margin-top: 12px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: lighter;
+  margin:25px 0px 45px 0px;
+ }
+ .two>#d1>ul{
+    width:70px;
+    margin:0px -80px 0px 200px;
+ }
+ .two>#d1>ul>li{
+   width:70px;
+   height:30px;
+ }
+ .two>#d1>ul>.l1{
+  margin:7px 0px 0px 0px;
+ }
+ .two>#d1>ul>li>a{
+   color:#fff;
+ }
+ .two>#d1>img{
+   width:73px;
+   height:73px;
+   position: absolute;
+   bottom:0px;
+   left: 105px;
  }
  .two>img{
    width:62.5%;
+   margin:40px 0px 0px 0px;
  }
  /* 第三个的样式 */
  .four>#d1{
    width:50%;
    margin:0 auto;
    position: relative;
-   border:1px solid #f00;
+ }
+ .four>#d1>h1{
+   padding-top: 50px;
+  font-size: 32px;
+  color: #282a33;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 15px;
+  line-height: 40px;
+ }
+ .four>#d1>h1>.s1{
+    margin:0px -25px 0px 0px;
+ }
+ .four>#d1>img{
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  width: 40px;
+ }
+ .four>#d1>h2{
+  margin-top:20px;
+  font-size: 15px;
+  color: #282a33;
  }
  .four>img{
+   padding-top:30px;
    width:62.5%;
  }
  /* 第四个的样式 */
@@ -372,9 +433,33 @@ a{text-decoration: none;}
    width:50%;
    margin:0 auto;
    position: relative;
-   border:1px solid #f00;
+ }
+ .five>#d1>h1{
+  padding-top: 50px;
+  font-size: 32px;
+  color: #fff;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 15px;
+  line-height: 40px;
+ }
+ .five>#d1>h1>span{
+   margin-left: 15px;
+ }
+ .five>#d1>img{
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  width: 40px;
+ }
+ .five>#d1>h2{
+  margin-top:20px;
+  font-size: 15px;
+  color: #ffffff;
  }
  .five>img{
+  padding-top:30px;
    width:62.5%;
  }
  /* 第五个的位置 */
@@ -382,9 +467,33 @@ a{text-decoration: none;}
    width:50%;
    margin: 0 auto;
    position:relative;
-   border:1px solid #f00;
+ }
+ .six>#d1>h1{
+  padding-top: 50px;
+  font-size: 32px;
+  color: #000;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 15px;
+  line-height: 40px;
+ }
+ .six>#d1>h1>span{
+  margin-left: 15px;
+ }
+ .six>#d1>img{
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  width: 40px;
+ }
+ .six>#d1>h2{
+  margin-top:20px;
+  font-size: 15px;
+  color: #000;
  }
  .six>img{
+  padding-top:30px;
    width:62.5%;
  }
  /* 第六个的位置 */
@@ -392,9 +501,33 @@ a{text-decoration: none;}
    width:50%;
    margin:0 auto;
    position: relative;
-   border:1px solid #f00;
+ }
+ .seven>#d1>h1{
+  padding-top: 50px;
+  font-size: 32px;
+  color: #ffff;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 15px;
+  line-height: 40px;
+ }
+ .seven>#d1>h1>span{
+  margin-left:22px;
+ }
+ .seven>#d1>img{
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  width: 40px;
+ }
+ .seven>#d1>h2{
+  margin-top:20px;
+  font-size: 15px;
+  color: #fff;
  }
  .seven>img{
+  padding-top:30px;
    width:62.5%;
  }
  /* 第七个的位置 */
@@ -402,14 +535,57 @@ a{text-decoration: none;}
    width:50%;
    margin:0 auto;
    position: relative;
-   border:1px solid #f00;
+ }
+ .id7>#d1>h1{
+  padding-top: 50px;
+  font-size: 32px;
+  color: #000;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 15px;
+  line-height: 40px;
+ }
+ .id7>#d1>h1>span{
+  margin-left:22px;
+ }
+ .id7>#d1>h2{
+  margin-top:20px;
+  font-size: 15px;
+  color: #000;
  }
  .id7>img{
+  padding-top:30px;
    width:62.5%;
  }
  /* 第八个的样式 */
  .eight{
    display: none;
+ }
+ .eight2{
+   color:#fff;
+ }
+ .eight2 a{
+   color:#fff;
+ }
+ .eight2>#a1>a{
+   color:#16a5af;
+ }
+ .eight2>#a1{
+  margin-bottom:25px;
+ }
+ .eight2>.a2{
+  width: 100%;
+  margin-top: 130px;
+  font-size: 13px;
+  color: #fff;
+  line-height: 25px;
+ }
+ .eight2>.a3{
+   margin-top:20px;
+ }
+ .eight2>.a3 img{
+   width:40px;
+   height:20px;
  }
  .eight2>h1{
    color:#fff;
